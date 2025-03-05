@@ -25,7 +25,8 @@ public partial class MainWindow : Window
     {
         int x = 25;
         int y = 10;
-        int z = 9;
-        MessageBox.Show("A soma de x + y + z é: " + (x + y + z));
+        double z = 10.5;
+        MessageBox.Show("A soma de x + y é: " + (x + y));
+
     }
 }
