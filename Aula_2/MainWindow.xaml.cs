@@ -20,4 +20,11 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void Button_Click(object sender, RoutedEventArgs e)
+    {
+        int x = 25;
+        int y = 10;
+        MessageBox.Show("A soma de x + y é: " + (x + y));
+    }
 }
